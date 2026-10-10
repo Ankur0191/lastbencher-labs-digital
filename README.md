@@ -90,6 +90,4 @@ lastbencher-labs-digital/
 4. Add rate limiting / anti-bot controls for the contact API.
 5. Run unit tests, production build and Playwright checks in CI; review the pages with actual sales, legal and delivery stakeholders before publishing.
 
-## Notes
 
-This is a working codebase scaffold, not a claim that the organisation has specific certifications, clients, case studies, response-time commitments or quantified results. The copy intentionally avoids invented logos and metrics. Replace/approve all commercial claims before publication.
