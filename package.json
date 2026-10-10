@@ -1,0 +1,25 @@
+{
+  "name": "lastbencher-labs-digital",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "npm@10.9.2",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "turbo dev --filter=@tlb/web",
+    "build": "turbo build",
+    "start": "turbo start --filter=@tlb/web",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test",
+    "test:e2e": "turbo test:e2e --filter=@tlb/web",
+    "check": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "turbo": "^2.5.6",
+    "typescript": "^5.9.2",
+    "eslint": "^9.35.0",
+    "eslint-config-next": "^16.0.0"
+  },
+  "engines": { "node": ">=20.9.0" }
+}
